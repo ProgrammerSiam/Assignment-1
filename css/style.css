@@ -1,0 +1,258 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+
+/*=============== BASE ===============*/
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  text-transform: capitalize;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow: hidden;
+}
+section {
+  padding: 2rem 12%;
+}
+
+/*=============== HOME SECTION STYLE HERE ===============*/
+#home {
+  padding: 2rem 10%;
+  height: 100vh;
+  background-image: url(../images/banner/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+}
+.home--container .home--content {
+  text-align: right;
+  position: relative;
+  top: 15rem;
+}
+.home--container .home--content h3 {
+  color: #ffffff;
+  font-size: 6.5rem;
+  font-family: "Ubuntu", sans-serif;
+}
+.home--container .home--content p {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.home--container .home--content button {
+  color: #005fac;
+  padding: 0.7rem 2rem;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  border: none;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+/*=============== ABOUT SECTION STYLE HERE ===============*/
+#about {
+  margin-top: 10rem;
+}
+
+.about--container {
+  display: flex;
+  align-items: center;
+  grid-gap: 3rem;
+}
+.about--container .about--content {
+  position: relative;
+  top: 5rem;
+}
+.about--container .about--content h3 {
+  font-size: 4rem;
+  font-family: "Ubuntu", sans-serif;
+}
+.about--container .about--content p {
+  font-size: 1.6rem;
+  color: #444343;
+  padding: 1rem 0;
+}
+
+.about--container .about--content ul li {
+  font-size: 1.6rem;
+  color: #444343;
+  margin-top: 1rem;
+}
+/*=============== PLAN SECTION STYLE HERE ===============*/
+#plan {
+  margin-top: 10rem;
+}
+
+.plan--heading {
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Ubuntu", sans-serif;
+}
+.plan--container {
+  margin-top: 5rem;
+  display: flex;
+  grid-gap: 5rem;
+  text-align: center;
+}
+
+.plan--container .plan--card .card img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.plan--container .plan--card .card h3 {
+  font-size: 3rem;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.plan--container .plan--card .card p {
+  font-size: 2.5rem;
+  color: #737272;
+}
+/*=============== HERO SECTION STYLE HERE ===============*/
+#hero {
+  padding: 2rem 10%;
+  margin-top: 5rem;
+  height: 100vh;
+  background-image: url(../images/banner/hero.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top right;
+}
+
+.hero--container .hero--content {
+  position: relative;
+  top: 15rem;
+}
+
+.hero--container .hero--content h3 {
+  font-size: 6.5rem;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.hero--container .hero--content p {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  color: #444343;
+}
+
+.hero--container .hero--content button {
+  color: #ffffff;
+  background: #f15b22;
+  padding: 0.7rem 2rem;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  border: none;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+/*=============== MIND SECTION STYLE HERE ===============*/
+
+.mind--container {
+  margin-bottom: 2rem;
+  height: 100%;
+  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%),
+    url(../images/watch.png);
+  background-repeat: no-repeat;
+  border-radius: 0.5rem;
+}
+
+.mind--container .mind--content {
+  padding: 5rem 5rem;
+}
+
+.mind--container .mind--content h3 {
+  font-size: 4rem;
+  color: #ffffff;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.mind--container .mind--content button {
+  padding: 1rem 1.5rem;
+  font-size: 2rem;
+  color: #f15b22;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+/*=============== FOOTER SECTION STYLE HERE ===============*/
+#footer {
+  background: #151414;
+  margin-top: 5rem;
+}
+
+.footer--container {
+  padding: 5rem 0;
+  display: flex;
+  grid-gap: 2rem;
+}
+.footer--container .future--content h3 {
+  font-size: 4.5rem;
+  color: #f8f8f8;
+  font-family: "Ubuntu", sans-serif;
+}
+.footer--container .future--content p {
+  max-width: 50%;
+  font-size: 1.6rem;
+  color: #ffffff;
+  padding: 1rem 0;
+}
+
+.footer--container .future--content a {
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+
+.footer--container .future--content .future--icon {
+  padding: 3rem 0;
+}
+
+.footer--container .future--content .future--icon img {
+  margin-right: 1rem;
+}
+
+.footer--container .future--subscribe h3 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.footer--container .future--subscribe label input {
+  border: none;
+  padding: 1.5rem 2.5rem;
+  border: 0.1rem solid #ffffff;
+  background: #151414;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+}
+
+.footer--container .future--subscribe label input::placeholder {
+  font-size: 2rem;
+  color: #f3f3f3;
+}
+
+.footer--container .future--subscribe button {
+  border: none;
+  padding: 1rem 2rem;
+  background: #ffffff;
+  color: #f15b22;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
